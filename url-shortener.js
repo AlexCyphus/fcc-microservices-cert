@@ -23,7 +23,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 
 /** this project needs a db !! **/ 
-const MONGO_URI ='mongodb+srv://alex:PBhAM5LoaJwcs3Tk@cluster0.xlz6w.mongodb.net/fcc?retryWrites=true&w=majority';
+const MONGO_URI = '*****'
 
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 

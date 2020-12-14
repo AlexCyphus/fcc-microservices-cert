@@ -14,7 +14,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://alex:PBhAM5LoaJwcs3Tk@cluster0.xlz6w.mongodb.net/fcc?retryWrites=true&w=majority' || 'mongodb://localhost/exercise-track', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("*****" || "*****", { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use(cors())
 
